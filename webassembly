@@ -1,0 +1,5 @@
+Web assembly is a language that can be executed by browser.
+However, it is tough to write code in webassembly directly.
+We can write code in our favourite language and convert it
+into web assembly using compiler. Now the output from this
+program can be used by js.
