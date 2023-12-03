@@ -1,0 +1,9 @@
+The full name is 'selenium webdriver'. By name, it suggests that it's 
+driver for web. Most likely, Selenium is a program which can drive a web
+browser. We can say to selenium what we want to drive. So it's sort of
+mediator bw us and browser.
+
+user --> selenium(receives bunch of instructions) --> drives web browser
+
+"Selenium WebDriver drives a browser natively, as a real user would, 
+either locally or on remote machines." - official source

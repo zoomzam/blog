@@ -1,0 +1,10 @@
+In ruby, you can access only public methods from outside the class.
+What if you want to mutate class for only a certain object. Maybe,
+you also want access to its instance variables and private methods.
+Welcome to instance_eval.
+
+object.instance_eval{snippet}
+
+Inside the code block, it's like you are inside object's class. You
+can call instance_variables, private methods, declare new methods.
+Thus, mutating class for that specific object.
